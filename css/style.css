@@ -52,6 +52,12 @@ body {
   margin: 0 auto;
 }
 
+.header {
+  background-image: url(../images/bg.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
 .header__top {
   padding: 50px 0 90px;
   display: flex;
@@ -94,4 +100,76 @@ body {
 .header__content {
   display: flex;
   justify-content: space-between;
+}
+
+.header__info-list {
+  display: flex;
+  gap: 18px 10px;
+  flex-wrap: wrap;
+  max-width: 485px;
+}
+
+.header__info-item {
+  padding: 10px 20px;
+  color: #0a507a;
+  border-radius: 30px;
+  border: 1px solid #0a507a;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.header__social-list {
+  display: flex;
+  gap: 20px;
+}
+
+.header__news-box {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.header__news-title,
+.header__news-time {
+  font-size: 32px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.header__news-time {
+  margin-bottom: 10px;
+}
+
+.header__news-link {
+  text-transform: uppercase;
+  font-weight: 800;
+  text-decoration: underline;
+  margin-bottom: 30px;
+  align-self: flex-start;
+}
+
+.header__buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.header__buttons a {
+  font-size: 32px;
+  font-weight: 800;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-transform: uppercase;
+}
+
+.header__buttons-book {
+  background-color: #2b2a29;
+  color: #ffffff;
+}
+
+.header__buttons-activities {
+  color: #2b2a29;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 1px solid #2b2a29;
 }
