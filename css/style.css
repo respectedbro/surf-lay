@@ -355,3 +355,37 @@ body {
   width: 100%;
   margin-bottom: 150px;
 }
+
+.reviews {
+  margin-bottom: 150px;
+}
+
+.reviews__top {
+  margin-bottom: 100px;
+  margin-left: calc(50% + 10px);
+}
+
+.reviews__subtitle {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.reviews__title {
+  font-size: 64px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.reviews__item:nth-child(even) {
+  padding-top: 100px;
+}
+
+.reviews__items {
+  display: flex;
+  gap: 20px;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+}
+
+.reviews__img {
+}
